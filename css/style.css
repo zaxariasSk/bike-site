@@ -266,3 +266,45 @@ input:focus {
 .latestModelsContainer  {
   margin-top: 250px;
 }
+
+.companyInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.parInfo {
+  font-size: var(--font-size);
+  max-width: 36ch;
+  line-height: 40px;
+  /* margin-left: 180px; */
+}
+
+.parInfo h1 {
+  font-size: var(--font-size-header);
+  font-weight: 1;
+  padding-bottom: 25px;
+  white-space: nowrap;
+}
+
+.parInfo p:last-of-type {
+  text-align: end;
+  text-decoration: underline;
+}
+
+.katastima {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(0%, -7%);
+}
+
+.test {
+  width: 1125px;
+  position: relative;
+}
+
+.latestModelsContainer:last-child {
+  padding-top: 45px;
+}
