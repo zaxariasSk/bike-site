@@ -308,3 +308,38 @@ input:focus {
 .latestModelsContainer:last-child {
   padding-top: 45px;
 }
+
+/* Grid Box */
+
+.photosContainer {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photoInnerContainer .gridBox {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 22px;
+}
+
+.instaUpper {
+  position: relative;
+}
+
+.instaUpper::before {
+  content: url("../images/Instagram.png");
+  top: -90px;
+  left: 90px;
+  position: absolute;
+}
+
+
+.instaUpper::after {
+  content: "@pnevmatikakis_moto";
+  top: 0;
+  left: 108px;
+  color: white;
+  position: absolute;
+}
